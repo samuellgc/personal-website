@@ -5,6 +5,8 @@ export default function ProfileImg({ ...props }: ProfileImage) {
   return (
     <>
       <Image
+        src={props.imagePath}
+        alt={props.alt}
         className={`
           border 
           border-white 
@@ -13,9 +15,7 @@ export default function ProfileImg({ ...props }: ProfileImage) {
           ${props.size === 'large' && 'w-auto h-[500px]'}
           ${props.size === 'large' ? 'rounded-lg' : 'rounded-full'}
           ${props.className && props.className}
-          `}
-        src={props.imagePath}
-        alt={'Imagem de perfil Samuel Carneiro'}
+        `}
       />
     </>
   );
