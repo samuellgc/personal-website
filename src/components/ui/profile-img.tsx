@@ -12,6 +12,7 @@ export default function ProfileImg({ ...props }: ProfileImage) {
           ${props.size === 'normal' && 'w-40 h-40'}
           ${props.size === 'large' && 'w-auto h-[500px]'}
           ${props.size === 'large' ? 'rounded-lg' : 'rounded-full'}
+          ${props.className && props.className}
           `}
         src={props.imagePath}
         alt={'Imagem de perfil Samuel Carneiro'}
