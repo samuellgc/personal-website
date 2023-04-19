@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { ProfileImage } from '@/@types/types';
+import { ImagesTypes } from '@/@types/types';
 
-export default function ProfileImg({ ...props }: ProfileImage) {
+export default function ImageComponent({ ...props }: ImagesTypes) {
   return (
     <>
       <Image
