@@ -1,7 +1,7 @@
 import { FaNode, FaReact, FaVuejs } from 'react-icons/fa';
 import { SiExpress, SiMysql, SiNextdotjs, SiSass, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { CardSkills } from '../ui/cards';
-import { titleSkillPt } from '@/utils/data/skill';
+import { titleSkillPt } from '../../utils/data/skill';
 import Title from '../ui/title';
 
 export default function Skill() {
