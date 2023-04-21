@@ -12,6 +12,7 @@ export type ImagesTypes = {
 export type ArticlesTypes = {
   title?: string
   body: string
+  className?: string
 }
 
 // Cards

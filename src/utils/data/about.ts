@@ -1,12 +1,12 @@
 export const aboutPtBr = `
-Meu nome é Samuel Sou apaixonado por aprendizado e conhecer coisas novas, 
-tenho experiência em administração de empresas, 
-empreendedorismo e atualmente sou desenvolvedor de software. 
-Contudo, atuo hoje com todos os conhecimentos em conjunto, 
-as minhas experiências em gestão me deram possibilidades de entender muito 
-melhor as regras de negócio e também a gestão de pessoas, 
-conseguido alinhar tudo isso com a programação me torna um 
-trabalhador completo.
+Eu não sou apenas um desenvolvedor, eu sou desenvolvedor, gestor e um visionário.
+Sou formado em Processos Gerenciais e Administração e já atuei em diversas posições de carreira, como estagiário financeiro, em processos e projetos, 
+além disso, atuei como assistente de controladoria em um dos maiores mercados do Ceará. 
+Sempre fui ligado em tecnologia e queria que meus esforços pudessem atingir diversas pessoas, 
+então comecei a aprender e estudar programação, desde então tive uma grande evolução de carreira e de vida e atualmente estou atuando como engenheiro de software em uma empresa da Dinamarca. 
+Pra mim estudar e aprender é um hobbie e venho me aperfeiçoando nos assuntos que mais me atraem, como 
+programação, liderança, filosofia, astronomia, entre outros temas... E meu grande objetivo é poder influenciar pessoas e 
+ajudá-las ao máximo possível com meus projetos e trabalhos.
 `;
 export const aboutEn = 'My name is Samuel';
 

@@ -9,8 +9,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col py-5 px-10 gap-10">
       <Hero />
       <About />
-      <Skill />
       <Project />
+      <Skill />
       <Footer />
     </main>
   );

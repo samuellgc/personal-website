@@ -1,6 +1,6 @@
 import { ProjectType } from '@/@types/types';
 
-export const titleProject = 'Projects';
+export const titleProject = 'Projetos';
 
 export const projects: ProjectType[] = [
   {
