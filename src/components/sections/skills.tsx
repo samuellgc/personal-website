@@ -8,7 +8,7 @@ import Title from '../ui/title';
 
 export default function Skill() {
   return (
-    <section className='flex flex-col gap-8 justify-center'>
+    <section className='flex flex-col gap-8 justify-center mb-20'>
       <Title title={titleSkillPt} />
       <div className='flex gap-10 max-w-[560px] flex-wrap mx-auto'>
         <CardSkills icon={<FaReact />} title='React' />

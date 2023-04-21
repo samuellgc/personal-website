@@ -13,7 +13,7 @@ export function CardSkills({ ...props }: CardSkillType) {
 
 export function CardProject({ projects }: Projects) {
   return (
-    <div className='flex mx-auto max-w-[1040px] gap-10 flex-wrap'>
+    <div className='flex gap-10 flex-wrap'>
       {
         projects.map((project: ProjectType, index: number) => {
           return (
