@@ -25,7 +25,18 @@ export type SkillType = {
   title: string
 }
 
-// Types
+// Project
+export interface Projects {
+  projects: ProjectType[]
+}
+
+export type ProjectType = {
+  title: string,
+  description: string,
+  url: string
+}
+
+// Title
 export type TitleType = {
   title: string
 }

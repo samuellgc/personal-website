@@ -1,4 +1,5 @@
-import { CardSkillType } from '@/@types/types';
+import { CardSkillType, ProjectType, Projects } from '@/@types/types';
+import { FaFolderOpen, FaGithub } from 'react-icons/fa';
 
 export function CardSkills({ ...props }: CardSkillType) {
   return (
@@ -10,8 +11,27 @@ export function CardSkills({ ...props }: CardSkillType) {
   );
 }
 
-export function CardProject() {
+export function CardProject({ projects }: Projects) {
   return (
-    <div></div>
+    <div className='flex mx-auto max-w-[1040px] gap-10 flex-wrap'>
+      {
+        projects.map((project: ProjectType, index: number) => {
+          return (
+            <div className='flex flex-col w-80 h-72 border border-white rounded p-8 gap-3' key={index}>
+              <div className='flex justify-between'>
+                <FaFolderOpen className='text-2xl' />
+                <a href={project.url} target='_blank'>
+                  <FaGithub className='text-2xl' />
+                </a>
+              </div>
+              <div className='flex flex-col'>
+                <p className='font-semibold text-lg'>{project.title}</p>
+                <p>{project.description}</p>
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
   );
 }
