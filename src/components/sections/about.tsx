@@ -8,9 +8,9 @@ export default function About() {
   return (
     <section className='flex gap-8 flex-col'>
       <Title title={tituloCard} />
-      <div className='flex gap-4'>
+      <div className='flex gap-4 justify-center'>
+        <Articles body={aboutPtBr} title={quemSouEu} className='max-w-md'/>
         <ImageComponent size='large' imagePath={NebulosaImagem} alt='Capa Espaço' />
-        <Articles body={aboutPtBr} title={quemSouEu} />
       </div>
     </section>
   );
