@@ -10,7 +10,7 @@ export default function Skill() {
   return (
     <section className='flex flex-col gap-8 justify-center mb-20'>
       <Title title={titleSkillPt} />
-      <div className='flex gap-10 max-w-[560px] flex-wrap mx-auto'>
+      <div className='flex gap-10 max-w-[560px] justify-center flex-wrap mx-auto'>
         <CardSkills icon={<FaReact />} title='React' />
         <CardSkills icon={<SiNextdotjs />} title='Next' />
         <CardSkills icon={<FaVuejs />} title='Vue' />

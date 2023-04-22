@@ -4,7 +4,7 @@ import Title from '../ui/title';
 
 export default function Project() {
   return (
-    <section className='flex flex-col gap-8 min-h-screen'>
+    <section className='flex flex-col gap-8 lg:min-h-screen'>
       <Title title={titleProject} />
       <CardProject projects={projects} />
     </section>

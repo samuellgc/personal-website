@@ -6,11 +6,11 @@ import Title from '../ui/title';
 
 export default function About() {
   return (
-    <section className='flex gap-8 flex-col h-screen'>
+    <section className='flex gap-8 flex-col lg:h-screen'>
       <Title title={tituloCard} />
       <div className='flex justify-between'>
-        <Articles body={aboutPtBr} title={quemSouEu} className='max-w-md'/>
-        <ImageComponent size='large' imagePath={NebulosaImagem} alt='Capa Espaço' />
+        <Articles body={aboutPtBr} title={quemSouEu} className='w-full md:max-w-md'/>
+        <ImageComponent className='hidden md:flex' size='large' imagePath={NebulosaImagem} alt='Capa Espaço' />
       </div>
     </section>
   );
