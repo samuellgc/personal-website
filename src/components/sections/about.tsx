@@ -6,7 +6,7 @@ import Title from '../ui/title';
 
 export default function About() {
   return (
-    <section className='flex gap-8 flex-col md:h-screen'>
+    <section className='flex gap-8 flex-col lg:h-screen'>
       <Title title={tituloCard} />
       <div className='flex justify-between'>
         <Articles body={aboutPtBr} title={quemSouEu} className='w-full md:max-w-md'/>

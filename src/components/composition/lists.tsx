@@ -1,7 +1,7 @@
 export default function List() {
   return (
-    <div className="flex justify-between">
-      <div className="flex flex-col max-w-md">
+    <div className="flex flex-col gap-10 md:flex-row lg:justify-between">
+      <div className="flex flex-col w-full md:max-w-md justify-center">
         <p className="font-semibold uppercase mb-5">Experiência</p>
         <p className="font-semibold uppercase">Prof. de Programação - Digital College | Fev/23 - </p>
         <ul className="flex flex-col gap-1 mb-5">
@@ -58,7 +58,7 @@ export default function List() {
           </li>
         </ul>
       </div>
-      <ul className="flex flex-col gap-7 max-w-md">
+      <ul className="flex flex-col gap-7 w-full md:max-w-md">
         <p className="font-semibold uppercase">Gradução</p>
         <li>
           GRADUAÇÃO - ADMINISTRAÇÃO DE EMPRESAS
